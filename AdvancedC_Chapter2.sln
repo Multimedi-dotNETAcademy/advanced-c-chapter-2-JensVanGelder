@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedC_Chapter2", "AdvancedC_Chapter2\AdvancedC_Chapter2.csproj", "{3FDC4431-6E38-408F-83AB-87F47777FF4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetlat", "Meetlat\Meetlat.csproj", "{C534A085-EF59-4888-9CB6-338D43D4D6EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3FDC4431-6E38-408F-83AB-87F47777FF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FDC4431-6E38-408F-83AB-87F47777FF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FDC4431-6E38-408F-83AB-87F47777FF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C534A085-EF59-4888-9CB6-338D43D4D6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C534A085-EF59-4888-9CB6-338D43D4D6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C534A085-EF59-4888-9CB6-338D43D4D6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C534A085-EF59-4888-9CB6-338D43D4D6EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
