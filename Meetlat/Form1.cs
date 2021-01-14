@@ -25,7 +25,10 @@ namespace Meetlat
         private void btnCalcLength_Click(object sender, EventArgs e)
         {
             double length = Convert.ToDouble(txtInput.Text);
-            Meetlat meet = new Meetlat(length);
+            Meetlat meet = new Meetlat
+            {
+                BeginLengte = length
+            };
             lblM.Text = $"{meet.LengteInM}";
             lblCm.Text = $"{meet.LengteInCm}";
             lblKm.Text = $"{meet.LengteInKm}";

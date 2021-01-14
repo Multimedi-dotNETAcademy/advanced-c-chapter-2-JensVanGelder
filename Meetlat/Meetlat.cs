@@ -10,13 +10,9 @@ namespace Meetlat
     {
         private double lengteInMeter;
 
-        public Meetlat(double meterInput)
-        { lengteInMeter = meterInput; }
-        public Meetlat() { }
 
         public double BeginLengte
         {
-            get { return lengteInMeter; }
             set { lengteInMeter = value; }
         }
 
